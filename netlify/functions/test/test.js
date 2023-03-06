@@ -42,7 +42,6 @@ exports.handler = async function (event, context) {
       const base64Image = Buffer.from(data, 'binary').toString('base64');
       const base64ImageStr = `data:image/${filename};base64,${base64Image}`;
       // console.log({ base64ImageStr })
-      fs.writeFileSync('./test-image.txt', base64ImageStr);
 
       drawing.onload = function () {
         ctx.drawImage(drawing, 0, 0, w, h);
