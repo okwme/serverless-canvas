@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "NODE_ENV=local netlify dev",
-    "configure": "cp ./libx86/* node_modules/canvas/build/Release/"
+    "configure": "echo hello"
   },
   "dependencies": {
     "canvas": "^2.11.0",
