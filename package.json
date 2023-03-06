@@ -13,7 +13,7 @@
     "configure": "npm rebuild && cp ./libx86/* node_modules/canvas/build/Release/"
   },
   "dependencies": {
-    "canvas": "pawnstudios/node-canvas-lambda",
+    "canvas": "^2.11.0",
     "netlify-cli": "^12.13.1"
   }
 }
